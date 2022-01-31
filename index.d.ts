@@ -3,9 +3,10 @@ interface Options {
 }
 type Items = Record<string, string>;
 declare class House {
-    rooms: Items;
-    furnitures: Items;
-    defaultLocale: string;
+    _rooms: Items;
+    _furnitures: Items;
+    _defaultLocale: string;
+    _options?: Options;
     room(): string;
     furniture(): string;
     _selectRandom(items: Items): string;
