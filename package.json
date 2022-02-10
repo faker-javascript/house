@@ -1,9 +1,9 @@
 {
   "name": "@fakerjs/house",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "House package provides functionality to generate a fake house value.",
   "license": "MIT",
-  "repository": "faker-javascript/game",
+  "repository": "faker-javascript/house",
   "author": {
     "name": "Sergey Romanenko",
     "email": "awilum@msn.com",
